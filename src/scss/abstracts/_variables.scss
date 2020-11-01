@@ -1,5 +1,12 @@
 // --- Variables --- //
+$primary-color: #36aadd !default;
+$secondary-color: #bbd550 !default;
+$tertiary-color: #464646 !default;
 
+$white: #fff;
+$black: #000;
+
+$opensans: "Open Sans";
 
 // --- Maps --- //
 
@@ -9,8 +16,8 @@ $colors: (
   primary:    $primary-color,
   secondary:  $secondary-color,
   tertiary:   $tertiary-color,
-  submit:     $button-color,
-  danger:     $danger-color
+  // submit:     $button-color,
+  // danger:     $danger-color
 
 );
 

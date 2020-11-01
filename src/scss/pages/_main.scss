@@ -1,0 +1,21 @@
+#form-jumbotron.fj {
+
+  width: 100%;
+  height: auto;
+
+  .fj {
+
+    &-liner {
+      margin-top: 7%;
+      height: 400px;
+    }
+
+    &-box {
+      height: auto;
+      margin-top: -8%;
+      min-height: 513px;
+    }
+
+  }
+
+}
