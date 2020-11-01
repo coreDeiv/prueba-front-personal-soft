@@ -42,3 +42,9 @@ npm install
 ```node
 gulp watch
 ```
+
+## Paso 4
+
+- Puedes ver la pagina directamente desde este link
+
+https://coredeiv.github.io/prueba-front-personal-soft/
