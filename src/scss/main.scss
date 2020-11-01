@@ -5,20 +5,18 @@
 // abstracts
 @import "abstracts/variables";
 @import "abstracts/mixins";
-@import "abstracts//placeholders";
+// @import "abstracts//placeholders";
 
 // Base
 @import "base/reset";
 
 // components
 @import "components/buttons";
-@import "components/modal";
+// @import "components/modal";
 
 // layout
-@import "layout/footer";
-@import "layout/forms";
-@import "layout/flex-grid";
+@import "layout/header";
 
 // Pages
-@import "pages/generator";
-@import "pages/home";
+// @import "pages/generator";
+// @import "pages/home";
