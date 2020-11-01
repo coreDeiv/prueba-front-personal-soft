@@ -1,5 +1,5 @@
 <section id="form-jumbotron" class="fj">
-  <div class="bg-primary">
+  <div class="bg-primary fj-liner">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8">
@@ -12,17 +12,42 @@
             </div>
   
             <!-- Main form of content -->
-            <div class="jf-box__content">
-              <form action="" method="GET">
+            <div class="jf-box__content mt-5 mt-md-0">
+              <form action="" method="GET" class="needs-validation" novalidate>
                 
-                <div class="row">
+                <div class="form-row">
                   <div class="col-12 offset-md-1 col-md-10 text-left px-5 px-md-0">
 
                     <div class="row">
-                      <div class="col-12 col-md-6">
+                      <div class="col-12 col-md-6 jf-box__content-input jf-box__content-input--marca">
 
                         <div class="form-group d-block d-sm-flex d-md-block">
-                          <label for="exampleInputEmail1">Marca del auto</label>
+                          <div class="col-12 col-sm-5 col-md-12 text-left align-items-center">
+                            <label  for="validationCustom01">Marca del auto</label>
+                          </div>
+                          <select class="form-control" id="validationCustom01" required>
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                          <div class="valid-feedback">
+                            Correcto
+                          </div>
+                          <div class="invalid-feedback">
+                            Seleccione una marca de auto
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-8 col-sm-12 col-md-6 no-gutters jf-box__content-input jf-box__content-input--modelo">
+
+                        <div class="form-group d-block d-sm-flex d-md-block">
+                          <div class="col-12 col-sm-5 col-md-12 text-left align-items-center">
+                            <label for="exampleInputEmail1">Modelo del Auto</label>
+                          </div>
                           <select class="form-control" id="exampleFormControlSelect1" required>
                             <option></option>
                             <option>1</option>
@@ -31,13 +56,21 @@
                             <option>4</option>
                             <option>5</option>
                           </select>
+                          <div class="valid-feedback">
+                            Correcto
+                          </div>
+                          <div class="invalid-feedback">
+                            Seleccione un modelo de auto
+                          </div>
                         </div>
 
                       </div>
-                      <div class="col-8 col-sm-12 col-md-6 no-gutters">
+                      <div class="col-4 col-sm-12 col-md-4 no-gutters jf-box__content-input jf-box__content-input--year">
 
                         <div class="form-group d-block d-sm-flex d-md-block">
-                          <label for="exampleInputEmail1">Modelo del Auto</label>
+                          <div class="col-12 col-sm-5 col-md-12 text-left align-items-center">
+                            <label for="exampleInputEmail1">Año</label>
+                          </div>
                           <select class="form-control" id="exampleFormControlSelect1" required>
                             <option></option>
                             <option>1</option>
@@ -46,36 +79,35 @@
                             <option>4</option>
                             <option>5</option>
                           </select>
+                          <div class="valid-feedback">
+                            Correcto
+                          </div>
+                          <div class="invalid-feedback">
+                            Seleccione un año valido
+                          </div>
                         </div>
 
                       </div>
-                      <div class="col-4 col-sm-12 col-md-4 no-gutters">
+                      <div class="col-12 col-md-8 jf-box__content-input jf-box__content-input--email">
 
                         <div class="form-group d-block d-sm-flex d-md-block">
-                          <label for="exampleInputEmail1">Año</label>
-                          <select class="form-control" id="exampleFormControlSelect1" required>
-                            <option></option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-
-                      </div>
-                      <div class="col-12 col-md-8">
-
-                        <div class="form-group d-block d-sm-flex d-md-block">
-                          <label for="exampleInputEmail1">Email</label>
+                          <div class="col-12 col-sm-5 col-md-12 text-left align-items-center">
+                            <label for="exampleInputEmail1">Email</label>
+                          </div>
                           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                          <div class="valid-feedback">
+                            Correcto
+                          </div>
+                          <div class="invalid-feedback">
+                            Verifique que el campo cumple con las indicaciones
+                          </div>
                         </div>
 
                       </div>
-                      <div class="col-12 mt-4">
+                      <div class="col-12 mt-4 jf-box__content-input jf-box__content-input--submit">
                           <button type="submit" class="btn btn-secondary btn-block">Cotizar</button>
                       </div>
-                      <div class="col-12 mt-4 text-center">
+                      <div class="col-12 mt-4 text-center jf-box__content-input jf-box__content-input--recover">
                           <a href="#" class="btn btn-link text-primary">Recuperar cotización</a>
                       </div>
                     </div>

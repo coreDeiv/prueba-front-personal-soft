@@ -5,18 +5,16 @@
 @import "abstracts/variables";
 @import "abstracts/cycles";
 @import "abstracts/mixins";
-// @import "abstracts//placeholders";
 
 // Base
 @import "base/reset";
 
 // components
 @import "components/buttons";
-// @import "components/modal";
+@import "components/form";
 
 // layout
 @import "layout/header";
 
 // Pages
-// @import "pages/generator";
-// @import "pages/home";
+@import "pages/main";
