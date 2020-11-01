@@ -1,7 +1,7 @@
 @each $key, $value in $colors {
-  .btn {
-    @extend %buttons;
-  }
+  // .btn {
+  //   @extend %buttons;
+  // }
   .btn-#{$key} {
     background: $value;
     color: $white;

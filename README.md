@@ -1,29 +1,44 @@
-# README #
+# Paso a paso para configurar Gulp
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Paso 1:
 
-### What is this repository for? ###
+- Debes de tener instalado [nodejs](https://nodejs.org/es/) de forma global en tu computador.
+- Recuerda descargar la version **TLS**, ya que es la mas estable, y asi nos evitamos errores.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Paso 2
 
-### How do I get set up? ###
+- Debes de tener instalado de la misma manera que tienes **node js** (globalmente) a [NPM](https://www.npmjs.com/).
+- Para verficar que cuentas con estos dos ultimos, ejecuta los siguiente comandos.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+```cmd
+node -v
+npm -v
+```
 
-### Contribution guidelines ###
+## Paso 3
 
-* Writing tests
-* Code review
-* Other guidelines
+- Una vez tengas todo lo necesario instalado y configurado, iniciamos nuestro proyecto con GULP
 
-### Who do I talk to? ###
+1. Deberas de ubicarte con la consola dentro de la carpeta en la que trabajaras
 
-* Repo owner or admin
-* Other community or team contact
+```cmd
+cd <folder-name-project>
+```
+
+2. Ejecuta el siguiente comando:
+
+```node
+npm init --yes
+```
+
+3. Ejecuta el siguiente comando:
+
+```node
+npm install
+```
+
+4. Pon a correr el proyecto con el siguiente comando:
+
+```node
+gulp watch
+```
